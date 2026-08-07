@@ -1,0 +1,16 @@
+{
+  "name": "tehtavienhallinta-backend",
+  "version": "1.0.0",
+  "description": "Tehtävienhallintasovelluksen backend (Express + SQLite)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/db/seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
