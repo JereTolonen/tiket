@@ -3,7 +3,7 @@
 Web-sovellus tiimien, projektien, sprinttien ja tehtävien (tikettien) hallintaan.
 Tekniikat: **React (Vite)** + **Node.js/Express** + **SQLite (better-sqlite3)**.
 
-*VAATII 22.X version tai vastaavan. Uudemmat 23.X ja 24.X eivät toimi*
+VAATII 22.X version tai vastaavan. Uudemmat 23.X ja 24.X eivät toimi
 ---
 
 ## 1. Käynnistys
