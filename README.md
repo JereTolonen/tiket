@@ -1,4 +1,4 @@
-# ASKEL — Tehtävienhallintasovellus
+# ASKEL - Tehtävienhallintasovellus
 
 Web-sovellus tiimien, projektien, sprinttien ja tehtävien (tikettien) hallintaan.
 Tekniikat: **React (Vite)** + **Node.js/Express** + **SQLite (better-sqlite3)**.
@@ -61,12 +61,12 @@ Sovellus mallintaa tyypillistä Scrum-tiimin työskentelyä:
 
 Tieto on normalisoitu kahdeksaan tauluun sen mukaan, mikä tieto toistuu ja mikä on yksilöllistä:
 
-- **users** — käyttäjätiedot ovat oma taulu, koska samaa käyttäjää käytetään useassa roolissa (tiimin jäsen, vastuuhenkilö, raportoija, kommentoija)
-- **teams / team_members** — jäsenyys eriytetty omaksi väliliitostauluksi, koska yhdellä käyttäjällä voi olla useita tiimejä ja yhdellä tiimillä useita jäseniä (many-to-many)
-- **projects** — kuuluu yhteen tiimiin (one-to-many teams → projects)
-- **sprints** — kuuluu yhteen projektiin, kuvaa Scrum-sprintin aikataulun ja tilan
-- **tasks** — sovelluksen ydin: kuuluu projektiin, voi kuulua sprinttiin, viittaa kahteen eri käyttäjään (assignee, reporter)
-- **comments / attachments** — riippuvat aina yhdestä tiketistä ja yhdestä käyttäjästä
+- **users** - käyttäjätiedot ovat oma taulu, koska samaa käyttäjää käytetään useassa roolissa (tiimin jäsen, vastuuhenkilö, raportoija, kommentoija)
+- **teams / team_members** - jäsenyys eriytetty omaksi väliliitostauluksi, koska yhdellä käyttäjällä voi olla useita tiimejä ja yhdellä tiimillä useita jäseniä (many-to-many)
+- **projects** - kuuluu yhteen tiimiin (one-to-many teams → projects)
+- **sprints** - kuuluu yhteen projektiin, kuvaa Scrum-sprintin aikataulun ja tilan
+- **tasks** - sovelluksen ydin: kuuluu projektiin, voi kuulua sprinttiin, viittaa kahteen eri käyttäjään (assignee, reporter)
+- **comments / attachments** - riippuvat aina yhdestä tiketistä ja yhdestä käyttäjästä
 
 ### 3.3 Taulujen ja kenttien määrittely, tietotyypit
 
